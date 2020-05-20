@@ -23,17 +23,17 @@
               "src/assets"
             ],
             "styles": [
-                "node_modules/bootstrap/dist/css/bootstrap.min.css",
-                "node_modules/@fortawesome/fontawesome-free/css/all.css",
-                "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "src/styles.css"
             ],
             "scripts": [
-                "node_modules/jquery/dist/jquery.slim.min.js",
-                "node_modules/@popperjs/core/dist/umd/popper.min.js",
-                "node_modules/bootstrap/dist/js/bootstrap.min.js",
-                "node_modules/@fortawesome/fontawesome-free/js/all.js"
+              "node_modules/jquery/dist/jquery.slim.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/@fortawesome/fontawesome-free/js/all.js"
             ]
-},
+          },
           "configurations": {
             "production": {
               "fileReplacements": [
@@ -103,5 +103,8 @@
       }
     }
   },
-  "defaultProject": "demo"
+  "defaultProject": "demo",
+  "cli": {
+    "analytics": "ade2846e-ad59-4eca-a966-24fee32f256b"
+  }
 }
